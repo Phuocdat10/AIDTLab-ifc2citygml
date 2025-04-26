@@ -8,7 +8,7 @@ A FME workbench for transforming IFC to CityGML 2.0 as LoD 4 (however LoD 2 and 
 
 # Mapping of IFC to CityGML 2.0 entities 
 |:-----------------------:|:--------------:|:---------------------:|:---------------:|:--------------------:|:-----------------------:|
-|                               IFC2x3                             | Temporary/Final |                  CityGML2.0                    |
+|          IFC2x3         |                |                       | Temporary/Final |      CityGML2.0      |                         |
 |:-----------------------:|:--------------:|:---------------------:|:---------------:|:--------------------:|:-----------------------:|
 |        IfcEntity        | PredefinedType |        Category       |                 |       Base Name      |     CityGML tagName     |
 |        IfcMember        |        *       | Curtain Wall Mullions |    Temporary    |        Member        |   BuildingInstallation  |
