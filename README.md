@@ -40,23 +40,23 @@ Due to Smart City Lab data is private data that we can not publish. We gather so
 
 Smart City Lab
 <figure>
-    <img src="./images/smartcitylab-citygml.png" width="600">
+    <img src="./Images/smartcitylab-citygml.png" width="600">
 </figure>
 <figure>
-    <img src="./images/smartcitylab-citygml2.png" width="600">
+    <img src="./Images/smartcitylab-citygml2.png" width="600">
 </figure>
 
 DigitalHub
 <figure>
-    <img src="./images/digitalhub-arcv2-1.png" width="600">
+    <img src="./Images/digitalhub-arcv2-1.png" width="600">
 </figure>
 <figure>
-    <img src="./images/digitalhub-arcv2-2.png" width="600">
+    <img src="./Images/digitalhub-arcv2-2.png" width="600">
 </figure>
 
 AC20-FZK-Haus
 <figure>
-    <img src="./images/AC20-FZK-Haus.png" width="600">
+    <img src="./Images/AC20-FZK-Haus.png" width="600">
 </figure>
 
 # Paper
