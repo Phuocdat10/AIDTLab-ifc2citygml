@@ -17,7 +17,6 @@ A FME workbench for transforming IFC to CityGML 2.0 as LoD 4 (however LoD 2 and 
 | IfcBeam                 | BuildingInstallation    |
 | IfcWindow               | Window                  |
 | IfcSlab                 | FloorSurface            |
-|                         |                         |
 |                         | RoofSurface             |
 | IfcRoof                 |                         |
 | IfcPlate                | IntBuildingInstallation |
