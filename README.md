@@ -8,29 +8,28 @@ A FME workbench for transforming IFC to CityGML 2.0 as LoD 4 (however LoD 2 and 
 
 # Mapping of IFC to CityGML 2.0 entities 
 
-|          IFC2x3         |                |                       | Temporary/Final |      CityGML2.0      |                         |
-|:-----------------------:|:--------------:|:---------------------:|:---------------:|:--------------------:|:-----------------------:|
-|        IfcEntity        | PredefinedType |        Category       |                 |       Base Name      |     CityGML tagName     |
-|        IfcMember        |        *       | Curtain Wall Mullions |    Temporary    |        Member        |   BuildingInstallation  |
-|   IfcWallStandardCase   |        *       |         Walls         |      Final      |         Wall         |       WallSurface       |
-|         IfcWall         |        *       |         Walls         |      Final      |                      |                         |
-|      IfcCurtainWall     |        *       |         Walls         |      Final      |                      |                         |
-|         IfcBeam         |        *       |   Structural Framing  |    Temporary    |         Beam         |   BuildingInstallation  |
-|        IfcWindow        |        *       |        Windows        |      Final      |        Window        |          Window         |
-|         IfcSlab         |      FLOOR     |         Floors        |      Final      |         Floor        |       FloorSurface      |
-|                         |    BASESLAB    |         Floors        |    Temporary    |       BaseSlab       |                         |
-|                         |      ROOF      |         Roofs         |      Final      |         Roof         |       RoofSurface       |
-|         IfcRoof         |        *       |         Roofs         |      Final      |                      |                         |
-|         IfcPlate        |        *       |     Curtain Panels    |    Temporary    |         Plate        | IntBuildingInstallation |
-|       IfcCovering       |     CEILING    |        Ceilings       |    Temporary    |       Covering       |                         |
-|         IfcDoor         |        *       |         Doors         |      Final      |         Door         |           Door          |
-| IfcBuildingElementProxy |        *       |     Generic Models    |    Temporary    | BuildingElementProxy |    BuildingFurniture    |
-|        IfcRailing       |   NOTDEFINED   |        Railings       |      Final      |        Railing       |   BuildingInstallation  |
-|      IfcStairFlight     |   NOTDEFINED   |      Stairs: Runs     |      Final      |      StairFlight     |                         |
-|       IfcBuilding       |        *       |  Project Information  |      Final      |       Building       |         Building        |
-|    IfcBuildingStorey    |        *       |         Levels        |      Final      |     Part (level)     |       BuildingPart      |
-|         IfcSpace        |        *       |         Rooms         |      Final      |         Room         |           Room          |
-|        IfcColumns       |        *       |        Columns        |    Temporary    |        Columns       |   BuildingInstallation  |
+| IFC 2x3                 | CityGML 2.0             |
+|-------------------------|-------------------------|
+| IfcMember               | BuildingInstallation    |
+| IfcWallStandardCase     | WallSurface             |
+| IfcWall                 |                         |
+| IfcCurtainWall          |                         |
+| IfcBeam                 | BuildingInstallation    |
+| IfcWindow               | Window                  |
+| IfcSlab                 | FloorSurface            |
+|                         |                         |
+|                         | RoofSurface             |
+| IfcRoof                 |                         |
+| IfcPlate                | IntBuildingInstallation |
+| IfcCovering             |                         |
+| IfcDoor                 | Door                    |
+| IfcBuildingElementProxy | BuildingFurniture       |
+| IfcRailing              | BuildingInstallation    |
+| IfcStairFlight          |                         |
+| IfcBuilding             | Building                |
+| IfcBuildingStorey       | BuildingPart            |
+| IfcSpace                | Room                    |
+| IfcColumns              | BuildingInstallation    |
 
 
 # Paper
