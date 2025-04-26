@@ -2,9 +2,11 @@
 A FME workbench for transforming IFC to CityGML 2.0 as LoD 4 (however LoD 2 and 3 are possible, depending on different purposes)
 
 # Requirement
-FME workbench 2022 or lated
+* FME workspace essentially outlines how data is extracted, transformed, and loaded from one format to another. Workspaces are the core of FME, allowing users to automate data integration tasks. Expected version 2022 or higher.
 
-# Tutorial
+* CityGML 2.0 is an open data model and XML-based format for the representation, storage, and exchange of virtual 3D city models. It supports multiple Levels of Detail (LODs) and enables semantic, geometric, topological, and appearance information to be integrated across various urban features. Refered in the [Open Geospatial Consortium Standard](https://www.ogc.org/standards/citygml/)
+
+# Mapping of IFC to CityGML 2.0 entities 
 
 
 # Paper
