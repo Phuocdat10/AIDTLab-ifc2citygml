@@ -7,14 +7,14 @@ Smart City Lab (SCL) dataset
 | Element                   | IFC Quantity | → CityGML Mapping          | CityGML Quantity | Mapping Match |
 |:--------------------------|:------------:|:---------------------------|:----------------:|:-------------:|
 | **IfcBuilding**           | 1            | **Building**               | 1                | ✅ Yes       |
-| IfcFlowTerminal           | 14           |                            |                  |               |
-| IfcBuildingElementProxy   | 932          |                            |                  |               |
-| IfcBeam                   | 94           |                            |                  |               |
-| IfcRailing                | 2            | **Building Installation**  | 1078             | ❌ No        |
-| IfcStairFlight            | 2            |                            |                  |               |
-| IfcStair                  | 2            |                            |                  |               |
-| IfcMember                 | 0            |                            |                  |               |
-| IfcPipeSegment            | 39           |                            |                  |               |
+| IfcFlowTerminal           | 14           | **Building Installation**  | 1078             | ❌ No        |
+| IfcBuildingElementProxy   | 932                                                                          |
+| IfcBeam                   | 94                                                                           |
+| IfcRailing                | 2                                                                            |
+| IfcStairFlight            | 2                                                                            |
+| IfcStair                  | 2                                                                            |
+| IfcMember                 | 0                                                                            |
+| IfcPipeSegment            | 39                                                                           |
 | **IfcBuildingStorey**     | 5            | **BuildingPart**           | 5                | ✅ Yes       |
 | **IfcDoor**               | 33           | **Door**                   | 33               | ✅ Yes       |
 | **IfcSlab [Floor]**       | 169          | **FloorSurface**           | 169              | ✅ Yes       |
@@ -34,9 +34,9 @@ Smart City Lab (SCL) dataset
 
 
 
-## Notes
-- Mapping is provisional for some complex classes (e.g., BuildingInstallation).
-- Future updates will improve ontology accuracy.
+[!NOTE]
+> Mapping is provisional for some complex classes (e.g., BuildingInstallation). <br>
+> Future updates will improve ontology accuracy.
 
 ## Visualization Overview
 
