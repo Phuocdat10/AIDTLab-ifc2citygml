@@ -1,5 +1,5 @@
 # ifc2citygml
-A FME workbench for transforming IFC to CityGML 2.0 as LoD 4 (however LoD 2 and 3 are possible, depending on different purposes)
+A FME workbench for transforming IFC 2x3,4 to CityGML 2.0 as LoD 4 (however LoD 2 and 3 are possible, depending on different purposes)
 
 # Requirement
 FME workspace essentially outlines how data is extracted, transformed, and loaded from one format to another. Workspaces are the core of FME, allowing users to automate data integration tasks. Expected version 2022 or higher.
@@ -12,24 +12,26 @@ Due to Smart City Lab data is private data that we can not publish. We gather so
 * [DigitalHub](https://github.com/RWTH-E3D/DigitalHub)
 
 # Mapping of IFC to CityGML 2.0 entities 
+The table below outlines the mapping between IFC 2x3 entities and their corresponding CityGML 2.0 entities. Please be aware that the contents of the table are subject to change as further input and updates are incorporated.
+For the BuildingInstallation and IntBuildingInstallation classes, the current mappings are provisional, as these classes are complex in nature. We are actively engaged in enhancing and extending our ontology to achieve a more precise and comprehensive alignment in future revisions.
 
 | IFC 2x3                 | CityGML 2.0             |
 |-------------------------|-------------------------|
 | IfcMember               | BuildingInstallation    |
 | IfcWallStandardCase     | WallSurface             |
-| IfcWall                 |                         |
-| IfcCurtainWall          |                         |
+| IfcWall                 | WallSurface             |
+| IfcCurtainWall          | WallSurface             |
 | IfcBeam                 | BuildingInstallation    |
 | IfcWindow               | Window                  |
 | IfcSlab                 | FloorSurface            |
-|                         | RoofSurface             |
-| IfcRoof                 |                         |
+| IfcSlab                 | RoofSurface             |
+| IfcRoof                 | RoofSurface             |
 | IfcPlate                | IntBuildingInstallation |
-| IfcCovering             |                         |
+| IfcCovering             | IntBuildingInstallation |
 | IfcDoor                 | Door                    |
 | IfcBuildingElementProxy | BuildingFurniture       |
 | IfcRailing              | BuildingInstallation    |
-| IfcStairFlight          |                         |
+| IfcStairFlight          | BuildingInstallation    |
 | IfcBuilding             | Building                |
 | IfcBuildingStorey       | BuildingPart            |
 | IfcSpace                | Room                    |
@@ -39,9 +41,8 @@ Due to Smart City Lab data is private data that we can not publish. We gather so
 * The below screenshot results dataset via FME Inspector 2025
 
 Smart City Lab
-<figure>
-    <img src="./Images/smartcitylab-citygml.png" width="600">
-</figure>
+- [IFC to CityGML Mapping Table](./Results/smart-city-lab.md)
+
 <figure>
     <img src="./Images/smartcitylab-citygml2.png" width="600">
 </figure>
