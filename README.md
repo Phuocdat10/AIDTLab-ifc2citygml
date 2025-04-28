@@ -38,10 +38,10 @@ For the BuildingInstallation and IntBuildingInstallation classes, the current ma
 | IfcColumns              | BuildingInstallation    |
 
 # Result
-* The below screenshot results dataset via FME Inspector 2025
+The dataset shown in the screenshot below was generated using FME Inspector 2025. For more detailed results, please refer to the individual data result links provided.
 
-Smart City Lab
-- [IFC to CityGML Mapping Table](./Results/smart-city-lab.md)
+
+[Smart City Lab](./Results/smart-city-lab.md)
 
 <figure>
     <img src="./Images/smartcitylab-citygml2.png" width="600">
