@@ -3,7 +3,7 @@
 ## Overview
 Smart City Lab (SCL) dataset
 
-## Quantity Checking Table
+## A Checklist Comparing Entity Quantities Between IFC and CityGML
 ![SmartCityLab-Overview](/Images/scl-quantity-check.png "SmartCityLab")
 
 
